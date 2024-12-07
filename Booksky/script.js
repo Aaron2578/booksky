@@ -17,6 +17,9 @@ add.addEventListener("click", function(event) {
     div.setAttribute('class','book-wrapper');
     div.innerHTML=`<h2>${book_name.value}</h2><h4>${author_name.value}</h4><p>${description.value}</p><button onclick="deletebox(event)">Delete</button>`
     container.append(div);
+    book_name.value="";
+    author_name.value="";
+    description.value="";
     box_overlay.style.display='none';
 
 })
