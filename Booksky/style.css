@@ -126,3 +126,14 @@ nav {
 .overlay {
     display: none;
 }
+@media screen and (min-width:600px) {
+    .book-wrapper {
+        width: 100%;
+        height: fit-content;
+        background: #000;
+        color: #fff;
+        margin: 20px;
+        border-radius: 20px;
+        padding: 20px;
+    }   
+}
