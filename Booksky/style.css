@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+nav {
+  background: #fd6569;
+  color: #ffff;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+.book-wrapper {
+    width: 30%;
+    height: fit-content;
+    background: #000;
+    color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.book-wrapper h2 {
+    padding: 5px 0px;
+    color: #fd6569;
+}
+.book-wrapper h4 {
+    padding: 5px 0px;
+}
+.book-wrapper p {
+    padding: 5px 0px;
+}
+.book-wrapper button {
+    margin: 10px 0px 0px 0px;
+    padding: 8px 16px;
+    background: #fd6569;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+}
+.add-book button {
+    border: none;
+    padding: 10px 20px;
+    background: #fd6569;
+    border-radius: 50%;
+    font-size: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.8;
+}
+.popup {
+    width: 30%;
+    height: 45%;
+    background: #fd6569;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 33%;
+    border-radius: 10px;
+}
+.popup form {
+    width: 90%;
+    margin: 20px auto;
+    background-color: transparent;
+}
+.popup form h1 {
+    padding: 10px 0px;
+}
+.popup form input {
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px 16px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    font-weight: 600;
+}
+.popup form input::placeholder {
+    color: #000;
+}
+.popup form input:focus {
+    outline: none;
+}
+.popup form textarea {
+    width: 100%;
+    margin: 5px 0px;
+    padding: 8px 16px;
+    border:2px solid black;
+    background-color: transparent;
+    font-weight: 600;
+}
+.popup form textarea:focus {
+    outline: none;
+}
+.popup form textarea::placeholder {
+    color: black;
+}
+.popup button {
+    margin: 30px px 0px 0px;
+    padding: 8px 16px;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+}
+.overlay {
+    display: none;
+}
