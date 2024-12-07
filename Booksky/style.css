@@ -65,14 +65,14 @@ nav {
     left: 0px;
     z-index: 1;
     position: absolute;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .popup {
     width: 30%;
-    height: 45%;
+    height: 50%;
     background: #fd6569;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     top: 30%;
     left: 33%;
     border-radius: 10px;
